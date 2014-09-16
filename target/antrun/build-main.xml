@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <delete dir="/home/cpr/minwei/software/hadoop-0.23.11-src/hadoop-tools/hadoop-streaming/target/test-dir"/>
+  <mkdir dir="/home/cpr/minwei/software/hadoop-0.23.11-src/hadoop-tools/hadoop-streaming/target/test-dir"/>
+  <mkdir dir="/home/cpr/minwei/software/hadoop-0.23.11-src/hadoop-tools/hadoop-streaming/target/log"/>
+</target>
+</project>
